@@ -33,13 +33,15 @@ This is, in both cases the initial values were the same (1000) and we have then 
 
 The algorithm is supposed to produce the same current value in both cases. This is, it should not matter that `Update()` is called multiple times with the same value or just once.
 
+**Important:** Those requirements may be wrong. And most probably this algorithm needs to keep a histogram of previous values and analyze its current trending in order to compute the new value.
+
 
 ## Usage
 
 Just run:
 
 ```bash
-$ ./run.sh
+$ ./run-tests.sh
 ```
 
 It will run some tests (see [src/main.cpp](./src/main.cpp) file) that will produce the following results:

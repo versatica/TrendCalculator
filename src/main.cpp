@@ -92,7 +92,7 @@ int main(int argc, char* argv[])
 
 	for (auto& test : tests)
 	{
-		printf(">>> running test %s:\n", test.name.c_str());
+		printf(">>> test %s:\n", test.name.c_str());
 
 		TrendCalculator trend;
 
