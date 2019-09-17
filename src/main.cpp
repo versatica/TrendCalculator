@@ -101,7 +101,7 @@ int main(int argc, char* argv[])
 			trend.Update(update.value, update.now);
 
 			printf(
-				"    trend.update(value:%" PRIu32 ", now:%" PRIu64 ") [trend value: %" PRIu32 "]\n",
+				"    trend.Update(value:%" PRIu32 ", now:%" PRIu64 ") [trend value: %" PRIu32 "]\n",
 				update.value,
 				update.now,
 				trend.GetValue());
