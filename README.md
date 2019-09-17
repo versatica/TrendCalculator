@@ -71,4 +71,4 @@ $ node index.js
 >>> done
 ```
 
-Once the algorithm is fixed, trend values in both tests should be the same for the same total elapsed time.
+Once the algorithm runs as expected, trend values in both tests should be the same for same total elapsed times.
