@@ -44,10 +44,10 @@ Just run:
 $ ./run-tests.sh
 ```
 
-It will run some tests (see [src/main.cpp](./src/main.cpp) file) that will produce the following results:
+It will run some tests (see [src/main.cpp](./src/main.cpp) file) that, right now, produce the following results:
 
 ```
-$ ./run.sh
+$ ./run-tests.sh
 
 >>> running test 1:
     trend.update(value:1000, now:0) [trend value: 1000]
