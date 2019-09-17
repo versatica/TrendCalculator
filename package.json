@@ -1,0 +1,11 @@
+{
+  "name": "trend_calculator",
+  "version": "1.0.0",
+  "description": "An algorithm to ease off decreasing values based on a constant factor, an elapsed time and (probably) also on currently highest value seen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "$NODE index.js"
+  },
+  "author": "Who Cares",
+  "license": "MIT"
+}
