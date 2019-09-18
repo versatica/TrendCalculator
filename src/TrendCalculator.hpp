@@ -13,7 +13,6 @@ public:
 	void Update(uint32_t value, uint64_t now);
 
 private:
-	bool started{ false };
 	uint32_t value{ 0u };
 	uint32_t highestValue{ 0u };
 	uint64_t highestValueUpdatedAt{ 0u };

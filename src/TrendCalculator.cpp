@@ -15,9 +15,8 @@ uint32_t TrendCalculator::GetValue() const
 
 void TrendCalculator::Update(uint32_t value, uint64_t now)
 {
-	if (!this->started)
+	if (this->value == 0u)
 	{
-		this->started               = true;
 		this->value                 = value;
 		this->highestValue          = value;
 		this->highestValueUpdatedAt = now;
